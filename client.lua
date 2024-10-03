@@ -1,5 +1,6 @@
 local curWeapon = nil
 local ox_inventory = exports.ox_inventory
+local QBCore = exports['qb-core']:GetCoreObject()
 local ped = cache.ped
 local playerLoaded = false
 local Weapons = {
